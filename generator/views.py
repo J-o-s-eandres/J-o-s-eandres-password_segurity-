@@ -1,6 +1,8 @@
 from django.shortcuts import render
 import random 
 
+
+#funciones de prueba 
 def about(request):
     return render(request,"generator/about.html")
 # Create your views here.
